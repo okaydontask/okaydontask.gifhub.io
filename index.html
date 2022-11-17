@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            width: 1300px;
+            height: 1550px;
+            margin: 0 auto;
+            background-color: whitesmoke;
+        }
+        .home{
+            width: 1300px;
+            height: 100px;
+            margin: 0 auto;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 69px;
+            box-sizing: border-box;
+        }
+        .home h1{
+            font-size: 50px;
+        }
+        .ytb{
+            background-image: url("image/f0bf0c81ddca49f3f87075ff386d5d0e94e5d4f3.jpg");
+            height: 150vh;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .gawxInfo{
+            display: flex;
+            justify-content: space-between;
+            padding: 0 69px;
+            box-sizing: border-box;
+        }
+        .gawxInfo img{
+            width: 431px;
+            height: auto;
+            padding-top: 23px;
+            box-sizing: border-box;
+        }
+        .gawx{
+            padding: 100px 220px 0 0;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+        .gawx h2{
+            font-size: 60px;
+            letter-spacing: 2px;
+        }
+        .gawx h3{
+            margin-top: 13px;
+            line-height: 1;
+/*            font-size: 35px;*/
+        }
+        span{
+            color: fff724;
+        }
+        .content{
+            width: 1300px;
+            height: 1250px;
+            margin: 0 auto;
+/*            background-color: skyblue;*/
+        }
+        .porfolio h1{
+            font-size: 60px;
+            text-align: center;
+            padding-top: 30px;
+            box-sizing: border-box;
+            letter-spacing: 2px;
+        }
+        .menuPorfolio ul{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin-top: 30px;
+        }
+        .menuPorfolio ul li{
+            margin-left: 30px;
+            letter-spacing: 0.8px;
+        }
+        .bgArt{
+            width: 1000px;
+            height: 995px;
+            margin: 0 auto;
+/*            background-color: fuchsia;*/
+            margin-top: 30px;
+        }
+        .bgArt img{
+            width: 180px;
+            height: auto;
+            margin-left: 10px;
+            margin-top: 25px;
+        }
+        .gridArt{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            grid-row-gap: 15px;
+        }
+        .footer{
+            width: 1300px;
+            height: 200px;
+            margin: 0 auto;
+/*            background-color: darkseagreen;*/
+        }
+        .customer{
+            width: 250px;
+            height: 95px;
+/*            background-color: gold;*/
+            float: left;
+            margin-left: 380px;
+        }
+        .customer h3{
+            text-decoration-line: underline;
+            margin-top: 13px;
+        }
+        .noti{
+            width: 350px;
+            height: 95px;
+/*            background-color: aqua;*/
+            float: right;
+            margin-right: 200px;
+        }
+        input[type="text"]{
+            margin-top: 30px;
+            padding: 10px 60px;
+            box-sizing: border-box;
+        }
+        .socialIcon{
+            width: 300px;
+            height: 50px;
+/*            background-color: lightcoral;*/
+            clear: both;
+            padding: 30px 0 0 75px;
+        }
+        .socialIcon ul li{
+            display: inline;
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        .gotopbtn{
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            background-color: forestgreen;
+            bottom: 40px;
+            right: 50px;
+            
+            text-decoration: none;
+            text-align: center;
+            line-height: 50px;
+            color: aliceblue;
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="home">
+            <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+            <h1>GAWX</h1>
+            <i class="fa fa-shopping-bag fa-lg" aria-hidden="true"></i>
+        </div>
+        
+        <div class="ytb"></div>
+        
+        <div class="gawxInfo">
+            <img src="image/315214171_1092543041433851_381203598115702769_n.jpg">
+            
+            <div class="gawx">
+                <h2 class="animate__animated animate__hinge animate__infinite animate__slower	3s">About Gawx</h2>
+                
+                <div class="container">
+                    <h3>Holla <span class="auto-type"></span></h3>
+                </div>
+                
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                
+                <script>
+                    var typed = new Typed(".auto-type", {
+                        string: ["Designer", "Artist"],
+                        typeSpeed: 150,
+                        backSpeed: 150,
+                        loop: true
+                    })
+                </script>
+                    <h3>1.9M on YouTube</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="porfolio">
+            <h1 class="animate__animated animate__rubberBand animate__infinite animate__slower	3s">Commissions</h1>
+            
+            <div class="menuPorfolio">
+                <ul>
+                    <li><h2>All</h2></li>
+                    <li><h2>Exhibition</h2></li>
+                    <li><h2>Doodle</h2></li>
+                    <li><h2>Oil painting</h2></li>
+                    <li><h2>Custume Skateboard</h2></li>
+                    <li><h2>Character</h2></li>
+                </ul>
+            </div>
+            
+            <div class="bgArt">
+                <div class="gridArt">
+                    <a href="ex1.html"><img src="image/6a3db4b991524143f744c1b9159705d5.jpg"></a>
+                    
+                    <a href="ex2.html"><img src="image/55d55710c5fef8711982d817785fbc32.jpg"></a>
+                    
+                    <a href="doodle1.html"><img src="image/390de8388288025d1aaf92035dcce0c9.jpg"></a>
+                    
+                    <a href="doodle2.html"><img src="image/150512265_177557557147207_1151861518282894164_n.jpg"></a>
+                    
+                    <a href="doodle3.html"><img src="image/download.jpg"></a>
+                    
+                    <a href="oil1.html"><img src="image/310516724_619694792989426_4163197795788371555_n (1).jpg"></a>
+                    
+                    <a href="oil2.html"><img src="image/314923242_864837698264737_2086135050694695278_n.jpg"></a>
+                    
+                    <a href="skate1.html"><img src="image/310661179_472407028242550_239088790026790714_n.jpg"></a>
+                    
+                    <a href="skate2.html"><img src="image/310831728_415787250632771_8911703222322653724_n.jpg"></a>
+                    
+                    <a href="oc1.html"><img src="image/310592274_836185280906030_6861444957171494293_n.jpg"></a>
+                    
+                    <a href="oc2.html"><img src="image/310636616_1203720867152084_5306135402418802178_n.jpg"></a>
+                    
+                    <a href="oc3.html"><img src="image/310694640_543427150881139_8477176318728983228_n.jpg"></a>
+                    
+                    <a href="oc4.html"><img src="image/310774568_629088212091519_1957553643203553214_n.jpg"></a>
+                    
+                    <a href="croc1.html"><img src="image/310073461_628412255391063_6175061303520464861_n.jpg"></a>
+                    
+                    <a href="croc2.html"><img src="image/310733499_470607208445102_8966509079852794284_n.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="info">
+            <div class="customer">
+                <h2>Customer Service and Contact</h2>
+                <h3>gawxxxxx@gmail.com</h3>
+            </div>
+            
+            <div class="noti">
+                <h2>Be notified when new items drop</h2>
+            <label>
+                <input type="text" placeholder="Email address">
+            </label>
+                <a class="gotopbtn" href="#"> <i class="fa fa-arrow-up fa-lg" aria-hidden="true"></i> </a>
+            </div>
+            
+            <div class="socialIcon">
+                <div class="social">
+                    <ul>
+                        <li><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
